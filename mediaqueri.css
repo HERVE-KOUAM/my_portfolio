@@ -10,7 +10,12 @@
         z-index: 100;
         background-color: none;
         width: 100%;
+        top: 0px;
         
+    }
+    #profile{
+
+        margin-top: 10vh;
     }
    
     
@@ -44,4 +49,4 @@
         margin: 0 5rem;
     }
 
-}
+}   

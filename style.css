@@ -6,6 +6,7 @@
 
 body{
     font-family: "poppins",smooth;
+    
 }
 html {
     scroll-behavior: smooth;
@@ -282,6 +283,7 @@ section {
 /*About*/
 #about{
     position: relative;
+    margin-top: 5vh;
 }
 .about-details-container{
     justify-content: center;
@@ -289,8 +291,8 @@ section {
 }
 .about-container{
     gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+   
+    margin-top: 1rem;
     display: flex;
     
     flex: 5;
@@ -363,3 +365,25 @@ display: flex;
     
     
 }
+
+/*experience*/
+#Experience{
+
+    position: relative;
+    margin-top: 1vh;
+}
+#Experience .section_p1{
+    text-align: center;
+    position: relative;
+    
+}
+
+#Experience .section_container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    
+}
+
