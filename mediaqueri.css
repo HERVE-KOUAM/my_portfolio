@@ -1,0 +1,47 @@
+@media screen and (max-width: 1200px) {
+
+    #dekstop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+
+        display: flex;
+        position: fixed;
+        z-index: 100;
+        background-color: none;
+        width: 100%;
+        
+    }
+   
+    
+}
+
+@media screen and (max-width: 1300px) {
+
+    #about .section_container{
+        justify-content: center;
+        
+    }
+    #about .section_pic-container{
+
+        display: none;
+        
+    }
+    section {
+        margin: 0 5rem;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    #about .section_container{
+        justify-content: center;
+        
+    }
+   
+    section {
+        margin: 0 5rem;
+    }
+
+}
