@@ -3,10 +3,7 @@
     font-family: kano;
     src:url(font/Kano.otf)format('otf')
 }
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 body{
     font-family: "poppins",normal;
@@ -14,6 +11,7 @@ body{
     
 }
 html {
+    
     scroll-behavior: smooth;
 }
 h1{
@@ -37,6 +35,8 @@ nav{
     justify-content:  space-around;
     align-items: center;
     height:  17vh;
+    position: fixed;
+    top: 0;
 }
 
 .nav-links{
@@ -158,7 +158,7 @@ a:hover {
 /* section*/
 
 section {
-    padding-top: 4vh ;
+    padding-top: 1vh ;
     height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
@@ -172,7 +172,15 @@ section {
 }
 
 /*profile section*/
-
+#Experience .entaite{
+    position: absolute;
+}
+#Experience{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
 #profile {
     display: flex;
     justify-content: center;
@@ -300,10 +308,8 @@ section {
 }
 .about-container{
     gap: 2rem;
-   
     margin-top: 1rem;
     display: flex;
-    
     flex: 5;
     background-color: #161616;
     width: auto;
@@ -379,7 +385,7 @@ display: flex;
 #Experience{
 
     position: relative;
-    margin-top: 1vh;
+    
 }
 #Experience .section_p1{
     text-align: center;

@@ -17,6 +17,12 @@
 
         margin-top: 10vh;
     }
+
+    #Experience{
+        z-index: inherit;
+        padding: 0vh;
+        bottom: 30vh;
+    }
    
     
 }
@@ -34,6 +40,10 @@
     }
     section {
         margin: 0 5rem;
+    }
+    #Experience{
+
+        margin-top: 0vh;
     }
 
 }
