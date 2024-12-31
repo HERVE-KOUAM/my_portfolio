@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,172 +17,196 @@
         <div class="logo">herve</div>
         <div>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#Experience">Experience</a></li>
-                <li><a href="#project">Project</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">/About</a></li>
+                <li><a href="#Experience">/Experience</a></li>
+                <li><a href="#project">/Project</a></li>
+                <li><a href="#contact">/Contact</a></li>
 
             </ul>
         </div>
     </nav>
 
     <nav id="hamburger-nav">
-        <div class="logo">herve</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
+
+        
+            <div class="logo">herve</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" class="nav-links" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#Experience" class="nav-links" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#project" class="nav-links" onclick="toggleMenu()">Project</a></li>
+                    <li><a href="#contact" class="nav-links" onclick="toggleMenu()">Contact</a></li>
+                </div>
             </div>
-            <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-            </div>
-        </div>
+        
     </nav>
 
-    <section id="profile">
+    <section id="profile" >
 
-        <div class="profile_img">
-
-            <img src="img/me/me (2).png" alt="Kouam Kamdem Herve">
-             
-        </div> 
-
-        <div class="sec_text">
-            <p class="p1">Hello, I'm</p>
-            <h1 class="title">Herve Kouam</h1>
-            <p class="p2">Helpdesck Specialist</p>
-            
-            <div class="btn-container">
-                <button type="button"
-                class="btn btn-light " onclick="window.open('./asset/Herve_kouam-resume_pdf.pdf')">
-                my resume
-                </button>
-                <button
-                type="button"
-                class="btn btn-dark "
-                 onclick="location.href('./#contact')">
-                Contact Info
-                </button>
-            </div>
-            
-            <div id="social-container">
-                <img src="img/icon/linkedin.svg"
-                 alt="my Linkedin profile" 
-                 class="icon"
-                 onclick="location.href='https://linkedin.com/in/kouam-herve-0830441a4'">
-
-                 <img src="img/icon/github.svg"
-                 alt="my github profile" 
-                 class="icon"
-                 onclick="location.href='https://github.com/HERVE-KOUAM'">
-            </div>
-
-        </div> 
-
-    </section>
-
-
-  
-    <section id="Experience" style="gap: 5rem;">
-
-        <div class="entaite">
-            <p class="section_p1">Explore My</p>
-            <h1 class="title"> Experience</h1>
-        </div>
-       
         
-        <div class="expe_contain row row-cols-1 row-cols-md-3 mt-n5 " style=" box-sizing: content-box;  align-items: center;" >
 
-            <div class="card_container"  >
-              <div class="card col col-12 col-lg-3 mx-1">
-                <div class="card-body content">
-                    <i class="bi bi-1-square fs-1" ></i>
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text" style="color: azure;">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="w-auto btn btn-lg btn-outline-primary">Go somewhere</a>
+            <div class="row">
+                <div class="col d-none d-md-flex profile_img">
+
+                    <img src="img/me/me (2).png" alt="Kouam Kamdem Herve">
+
                 </div>
-              </div>
+
+                <div class="col sec_text">
+                    <p class="p1">Hello, I'm</p>
+                    <h1 class="title">Herve Kouam</h1>
+                    <p class="p2">Helpdesck Specialist</p>
+
+                    <div class="btn-container">
+                        <button type="button" class="btn btn-light "
+                            onclick="window.open('./asset/Herve_kouam-resume_pdf.pdf')">
+                            my resume
+                        </button>
+                        <button type="button" class="btn btn-dark " onclick="location.href('./#contact')">
+                            Contact Info
+                        </button>
+                    </div>
+
+                    <div id="social-container">
+                        <img src="img/icon/linkedin.svg" alt="my Linkedin profile" class="icon"
+                            onclick="location.href='https://linkedin.com/in/kouam-herve-0830441a4'">
+
+                        <img src="img/icon/github.svg" alt="my github profile" class="icon"
+                            onclick="location.href='https://github.com/HERVE-KOUAM'">
+                    </div>
+
+                </div>
             </div>
 
-            <div class="card_container ">
-              <div class="card col col-12 col-lg-3  mx-1">
-                <div class="card-body content">
-                  <i class="bi bi-2-square fs-1" ></i>
-                  <h5 class="card-title" style="color: azure;">Special title treatment</h5>
-                  <p class="card-text" style="color: azure;">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn w-auto btn-outline-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="card_container ">
-                <div class="card col col-12 col-lg-3 mx-1">
-                  <div class="card-body content">
-                    <i class="bi bi-3-square fs-1" ></i>
-                    <h5 class="card-title" style="color: azure;">Special title treatment</h5>
-                    <p class="card-text" style="color: azure;">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn w-auto btn-outline-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card_container ">
-                <div class="card col col-12 col-lg-3 mx-1">
-                  <div class="card-body content">
-                    <i class="bi bi-3-square fs-1" ></i>
-                    <h5 class="card-title" style="color: azure;">Special title treatment</h5>
-                    <p class="card-text" style="color: azure;">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn w-auto btn-outline-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-
-
-          </div>
-
-          
-
-         
-            
-          
-          
-          
-       
+    
 
     </section>
 
-    <section class="workwhit mt-n5 pt-0 mb-7" style="position: relative; margin-top:20px;">
 
-        <div class="container mt-0 pt-0" >
-            <p class="section_p1 text-center"> What looks like </p>
-            <h1 class="title"> work whit Herve</h1>
+
+    <section id="Experience" class="container">
+
+        <div class="row">
+
+
+            <div class="container entaite bg-primary position-absolute">
+                <p class="section_p1">Explore My</p>
+                <h1 class="title"> Experience</h1>
+            </div>
+
+            <div class="container-xxl expe_contain row position-relative justify-content-center "
+                style=" box-sizing: content-box; gap: 10vh 0px; top: 20vh; align-items: center;">
+
+
+                <div class="card_container col col-sm-3 col-md-3 col-xl-4 ">
+                    <div class="card  ">
+                        <div class="card-body content">
+                            <i class="bi bi-1-square fs-1"></i>
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text" style="color: azure;">With supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <a href="#" class="w-auto btn btn-lg btn-outline-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card_container col col-sm-3 col-lg-4 ">
+                    <div class="card  ">
+                        <div class="card-body content">
+                            <i class="bi bi-2-square fs-1"></i>
+                            <h5 class="card-title" style="color: azure;">Special title treatment</h5>
+                            <p class="card-text" style="color: azure;">With supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <a href="#" class="btn w-auto btn-outline-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card_container col col-sm-3 col-lg-4 col-md-3 col-xl-4 ">
+                    <div class="card  ">
+                        <div class="card-body content">
+                            <i class="bi bi-3-square fs-1"></i>
+                            <h5 class="card-title" style="color: azure;">Special title treatment</h5>
+                            <p class="card-text" style="color: azure;">With supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <a href="#" class="btn w-auto btn-outline-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card_container col col-sm-3 col-lg-4 col-md-3 col-xl-4 ">
+                    <div class="card  ">
+                        <div class="card-body content">
+                            <i class="bi bi-3-square fs-1"></i>
+                            <h5 class="card-title" style="color: azure;">Special title treatment</h5>
+                            <p class="card-text" style="color: azure;">With supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <a href="#" class="btn w-auto btn-outline-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+    <section id="workwhit">
+
+        <div class="container-lg position-relative tips align-items-center justify-content-center " style="top: 40vh;">
+
+            <div class="card-text">
+                <p class="section_p1 text-center"> What looks like </p>
+                <h1 class="title"> work whit Herve</h1>
+            </div>
+
             <div class="accordion" id="faqAccordion">
                 <!-- Question 1 -->
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             What are the services provided to customers?
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            Hello, we provide various services to help your business grow and develop. We help provide ideas, 
-                            create designs, develop websites and mobile applications, provide support for the growth of business ideas, to help customers market their products online through the marketplace.
+                            Hello, we provide various services to help your business grow and develop. We help provide
+                            ideas,
+                            create designs, develop websites and mobile applications, provide support for the growth of
+                            business ideas, to help customers market their products online through the marketplace.
                         </div>
                     </div>
                 </div>
                 <!-- Question 2 -->
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             How can I submit a proposal for cooperation?
                         </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
                             You can submit a proposal through our contact form or email us directly with your ideas.
                         </div>
@@ -190,24 +215,30 @@
                 <!-- Question 3 -->
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            I come from a faraway place, can collaboration be done full-time online through several meeting applications?
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            I come from a faraway place, can collaboration be done full-time online through several
+                            meeting applications?
                         </button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            Yes, we support full-time online collaboration using various meeting applications like Zoom, Teams, or Google Meet.
+                            Yes, we support full-time online collaboration using various meeting applications like Zoom,
+                            Teams, or Google Meet.
                         </div>
                     </div>
                 </div>
                 <!-- Question 4 -->
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                             How do I get the payment complete?
                         </button>
                     </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
                             Payments can be completed securely through our online payment portal or via bank transfer.
                         </div>
@@ -216,24 +247,31 @@
                 <!-- Question 5 -->
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingFive">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                             How long can the collaboration last?
                         </button>
                     </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            The collaboration duration depends on the project's scope and agreement between both parties.
+                            The collaboration duration depends on the project's scope and agreement between both
+                            parties.
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
 
-    <script src="script.js"> 
+
+
+    <script src="script.js">
 
     </script>
 
 </body>
+
 </html>

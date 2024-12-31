@@ -49,6 +49,13 @@ a{
     text-decoration: none;
     color: #161616;
 }
+.nav-links.active{   
+    
+    color: gray;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181,181,181);
+}
 
 a:hover {
     color: gray;
@@ -67,6 +74,10 @@ a:hover {
 
 
 .logo{
+    position: relative;
+    top: 0;
+    left: 0;
+    justify-content: left;
     font-size: 2rem;
 }
 .logo:hover{
@@ -116,8 +127,7 @@ a:hover {
     font-size: 1.5rem;
     color: black;
     text-decoration: none;
-    transition: all 0.7 ease-in-out;
-    
+    transition: all 0.7 ease-in-out;   
 }
 
 .menu-links li{
@@ -176,6 +186,7 @@ section {
     position: absolute;
 }
 #Experience{
+    position: relative;
     display: flex;
     justify-content: center;
     gap: 5rem;
@@ -370,7 +381,7 @@ display: flex;
 }
 
 #about .section_pic-container img{
-    top:10%;
+   
     width: 100%;
     height: auto;
     object-fit: cover;
