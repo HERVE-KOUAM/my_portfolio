@@ -17,6 +17,10 @@
         gap: o 100px;
         
     }
+    #jobs{
+        margin-left:-50px;
+    }
+  
     #profile{
 
         margin-top: 10vh;
@@ -36,6 +40,9 @@
         display: none;
         
     }
+   
+ 
+   
     section {
         margin: 0 5rem;
     }
@@ -48,6 +55,7 @@
         justify-content: center;
         
     }
+   
    
     section {
         margin: 0 5rem;
